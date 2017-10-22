@@ -1,6 +1,6 @@
 pipeline{
 agent{
-lebel 'master1'
+label 'master1'
 }
 stages{
 stage("do ls"){

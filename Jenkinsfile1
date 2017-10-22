@@ -1,0 +1,12 @@
+pipeline{
+agent{
+lebel 'master1'
+}
+stages{
+stage("do ls"){
+steps{
+sh(script:'ls')
+}
+}
+}
+}
